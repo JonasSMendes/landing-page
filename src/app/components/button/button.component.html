@@ -1,0 +1,11 @@
+<div class="button-section">
+    <button [style.width]="width" [class]="'btn ' + varient" (click)="submit()" [disabled]="disable">
+
+        @if (!loading) {
+        {{title}}
+        }@else {
+        carregando...
+        }
+
+    </button>
+</div>

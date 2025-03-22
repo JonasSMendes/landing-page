@@ -1,0 +1,40 @@
+@import "../../../color-variable.scss";
+
+
+    .btn{
+        height: 66px;
+        padding: 20px 40px 20px 40px;
+        gap: 10px;
+        border: 1px solid $primary-color;
+        border-radius: 20px;
+        outline: none;
+        background-color: $primary-color;
+        cursor: pointer;
+        padding: 20px;
+        font-family: "Poppins";
+        line-height: 100%;
+        letter-spacing: 0%;
+
+        &:disabled{
+            opacity: 0.6;
+        }
+
+        &.primary{
+            color: #fff;
+            background: -webkit-linear-gradient(180deg, $primary-color , $secondary-color);
+            font-size: 20px;
+    
+            font-weight: bold;
+        }
+
+        &.secondary{
+            background: #fff;
+            color: $primary-color;
+            font-size: 14px;
+    
+            font-weight: bold;
+        }
+    
+    }
+
+
